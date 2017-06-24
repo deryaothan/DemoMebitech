@@ -8,5 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @version 0.0.1
  * @since 24.06.2017
  */
+@Repository
 public interface DepartmentRepository extends JpaRepository<Department, String> {
 }
